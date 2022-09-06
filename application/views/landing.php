@@ -7,30 +7,32 @@
     <link href="<?php echo base_url()?>resourses/bootsrap/css/bootstrap.min.css" rel="stylesheet" >
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+      <div class="container position-relative py-2">
+        <a class="navbar-brand position-absolute" href="#"><img src="<?php echo base_url('resourses/img/logo.png');?>" height="55px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link" aria-current="page" href="#about">About</a>
+            <a class="nav-link" href="#our-coffee">Our Coffee</a>
+            <a class="nav-link" href="#instagram">Instagram</a>
+            <a class="nav-link" href="#location">Location</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </div>
+        </div>
+        <div class="position-absolute d-flex align-items-center" style="right:0; top: 0; bottom:0">
+          <a class="btn btn-primary rounded-0" href="https://grandjatijunction.sawala.xyz/contact/"> 
+            Order Now        
+          </a>
+        </div>
+      </div>
+    </nav>
+
+
 <header class="container pt-5">
     <h1 class="text-center"> Boost your day with <br> a cup of coffee </h1>
     <div class="d-flex justify-content-center">
@@ -175,6 +177,8 @@
         <h1>Coffee with a friend is like capturing happiness in a cup.</h1>
       </div>
     </section>
+
+    
 
     <script src="<?php echo base_url()?>resourses/bootsrap/js/bootstrap.bundle.min.js" ></script>
   </body>
