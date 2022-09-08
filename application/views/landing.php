@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Kopiku</title>
     <link href="<?php echo base_url()?>resourses/bootsrap/css/bootstrap.min.css" rel="stylesheet" >
   </head>
   <body>
@@ -34,7 +34,7 @@
 
 
 <header class="container pt-5">
-    <h1 class="text-center"> Boost your day with <br> a cup of coffee </h1>
+    <h1 class="text-center"> Boost your day with Me <br>  and a cup of coffee </h1>
     <div class="d-flex justify-content-center">
          <img src="<?php echo base_url('resourses/img/hero2.png');?>">
 </div>
